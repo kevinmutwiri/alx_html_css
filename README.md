@@ -1,2 +1,1 @@
-# alx_html_css
-ALX Basic CSS
+# ALX Basic CSS
