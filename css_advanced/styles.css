@@ -1,0 +1,387 @@
+:root {
+    --purple: #C271FF;
+    --white: #FFFFFF;
+    --rd-white: #ffffff77;
+    --darkblue: #071629;
+    --black: #000000;
+    --shadow: #0000007c;
+    --gray: #0716297a;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3';
+    scroll-behavior: smooth;
+}
+
+.mg50 {
+    margin-top: 100px;
+}
+
+.hero-section {
+    background: url("./assets/images/Object.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav li{
+    list-style-type: none;
+    margin: 0 20px;
+}
+
+nav li a {
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--white);
+}
+
+nav li a:hover{
+    color: var(--purple);
+    border-bottom: 2px solid var(--white);
+    transition: all .5s ease-in-out;
+}
+
+.cover-section {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.cover-section h1{
+    font-size: 120px;
+    color: var(--white);
+    margin-bottom: -20px;
+}
+
+.cover-section span {
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+    color: var(--white);
+}
+
+.cover-section button {
+    font-weight: bold;
+    display: block;
+    margin: 40px auto;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--purple);
+    box-shadow: 2px 0 10px var(--shadow);
+    border: none;
+}
+
+.cover-section button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+}
+
+.celebrators {
+    margin-top: 170px;
+}
+
+.celebrators h2 {
+    color: var(--white);
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.celebrators h2 span {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.celebrate {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+
+.Phillip, .Lawrence, .Walters, .Hughes {
+    text-align: center;
+    margin: 0 50px;
+    color: var(--white);
+}
+
+.Phillip p, .Lawrence p, .Walters p, .Hughes p {
+    font-style: italic;
+    font-size: 16px;
+}
+
+.Walters img {
+    border-radius: 100%;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purple);
+    padding: 100px;
+}
+
+.testimonial blockquote, .testimonial h3, .testimonial p {
+    font-size: 22px;
+    color: var(--white);
+    margin: 0 80px;
+}
+
+.testimonial blockquote {
+    width: 750px;
+    margin-bottom: 20px;
+}
+
+.testimonial p{
+    font-style: italic;
+}
+
+/* TUTORIALS SECTION OF THE WEBSITE */
+.tutorial-section {
+    margin: 100px 0;
+}
+
+
+.tutorial-section h2{
+    text-align: center;
+    font-weight: 300;
+    margin: 50px 0;
+}
+
+.tutorial-section span {
+    font-weight: bold;
+    color: var(--purple);
+}
+
+.Diagonal, .Happy, .Natural, .Sad {
+    width: 255px;
+    margin: 0 20px;
+}
+
+.play {
+    position: relative;
+    top: 35%;
+    left: 35%;
+}
+
+
+.tutorial {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.tutorial h3 {
+    text-align: left;
+    font-size: 16px;
+}
+
+.tutorial p {
+    text-align: left;
+    color: var(--gray);
+    font-size: 14px;
+    width: 260px;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.person h4 {
+    font-size: 14px;
+    color: var(--purple);
+    margin: 0 10px;
+}
+
+.person img{
+    width: 8%;
+}
+
+.star-time {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.star-time p{
+    color: var(--purple);
+    text-align: right;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.fa-solid{
+    color: var(--purple);
+    margin: 0 2px;
+}
+
+.last {
+    color: var(--gray);
+}
+
+/* FREE MEMBERSHIP SECTION OF THE FLYER */
+.membership {
+    background-color: var(--darkblue);
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.membership button {
+    font-weight: bold;
+    display: block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    color: var(--white);
+    background-color: var(--purple);
+    box-shadow: 2px 0 10px var(--shadow);
+    border: none;
+}
+
+.membership button:hover {
+    cursor: pointer;
+    background-color: var(--white);
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+}
+
+.membership h2 {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.membership span {
+    color: var(--purple);
+    font-weight: bold;
+}
+
+.memberships {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.one, .two, .three, .four {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 220px;
+    margin: 30px 10px;
+}
+
+
+
+.memberships h3 {
+    color: var(--white);
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.memberships p {
+    color: var(--white);
+    font-size: 14px;
+}
+
+/* FREQUENTLY ASKED QUESTIONS SECTION OF THE WEBSITE */
+
+.faq {
+    margin: 100px 0;
+}
+
+.faq h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: 10;
+    margin-bottom: 20px;
+}
+
+.asked-questions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.top, .bottom {
+    width: 400px;
+    margin: 0 100px;
+}
+
+
+.asked-questions h3 {
+    font-size: 16px;
+    margin: 30px 0;
+}
+
+.answers{
+    font-size: 14px;
+    color: var(--gray);
+}
+
+.foot {
+    background-color: var(--darkblue);
+    /* padding: 100px 0; */
+}
+
+.logicons {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+}
+
+.fa-brands {
+    font-size: 25px;
+    color: var(--white);
+    margin: 0 10px;
+}
+
+.fa-brands:hover {
+    color: var(--purple);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+.foot p{
+    text-align: center;
+    color: var(--rd-white);
+    padding-bottom: 30px;
+}
