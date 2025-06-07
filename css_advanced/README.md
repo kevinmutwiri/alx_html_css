@@ -33,7 +33,7 @@ Clone the repository:
 
 ```bash
 git clone https://github.com/kevinmutwiri/alx_html_css.git
-``
+```
 
 Navigate into the project directory:
 
