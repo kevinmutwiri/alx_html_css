@@ -29,13 +29,13 @@ To get a local copy of this project up and running, it's very straightforward:
 Clone the repository:
 
 ```bash
-git clone 
+git clone https://github.com/kevinmutwiri/alx_html_css.git
 ``
 
 Navigate into the project directory:
 
 ```bash
-cd 
+cd alx_html_css/css_advanced
 ```
 
 ## Usage
