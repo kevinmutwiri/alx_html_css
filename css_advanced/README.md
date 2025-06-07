@@ -1,4 +1,4 @@
-# SmileSchool
+# ![smile](https://github.com/user-attachments/assets/1a28c1e4-71e7-4977-a757-5352a95fb7e0) SmileSchool
 
 ## About
 
