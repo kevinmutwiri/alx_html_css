@@ -123,18 +123,18 @@ nav li a:hover{
 }
 
 
-.Phillip, .Lawrence, .Walters, .Hughes {
+.phillip, .lawrence, .walters, .hughes {
     text-align: center;
     margin: 0 50px;
     color: var(--white);
 }
 
-.Phillip p, .Lawrence p, .Walters p, .Hughes p {
+.phillip p, .lawrence p, .walters p, .hughes p {
     font-style: italic;
     font-size: 16px;
 }
 
-.Walters img {
+.walters img {
     border-radius: 100%;
 }
 
@@ -179,7 +179,7 @@ nav li a:hover{
     color: var(--purple);
 }
 
-.Diagonal, .Happy, .Natural, .Sad {
+.diagonal, .happy, .natural, .sad {
     width: 255px;
     margin: 0 20px;
 }
