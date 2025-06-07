@@ -4,6 +4,9 @@
 
 This project is the web implementation of a Figma design, translated directly into HTML for structure and CSS for styling. The goal was to faithfully recreate the visual aesthetics and responsiveness outlined in the design, providing a clean and intuitive user interface for SmileSchool
 
+<img width="1440" alt="School Page@2x" src="https://github.com/user-attachments/assets/9354dfbe-d47b-44a2-bf13-fefbae025daa" />
+
+
 ## Figma Design
 
 The website's visual design was provided as a Figma file, which served as the blueprint for this implementation.
