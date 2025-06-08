@@ -1,3 +1,3 @@
 # CSS, basic
 
-> [home](../README.md)
+> [go back](../README.md)
