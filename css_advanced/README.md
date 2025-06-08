@@ -1,5 +1,7 @@
 # ![smile](https://github.com/user-attachments/assets/1a28c1e4-71e7-4977-a757-5352a95fb7e0) SmileSchool
 
+> [go back](../README.md)
+
 ## About
 
 This project is the web implementation of a Figma design, translated directly into HTML for structure and CSS for styling. The goal was to faithfully recreate the visual aesthetics and responsiveness outlined in the design, providing a clean and intuitive user interface for SmileSchool
