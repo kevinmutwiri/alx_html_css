@@ -178,7 +178,7 @@ nav {
     }
 }
 
-.options {
+.whatwedo {
     color: black;
     padding: 110px 200px;
     text-align: center;
@@ -195,7 +195,7 @@ nav {
     word-wrap: break-word;
 }
 
-.options .list .option {
+.whatwedo .list .option {
     flex-direction: column;
     width: 200px;
     height: 180px;
@@ -203,7 +203,7 @@ nav {
     text-align: center;
 }
 
-.options .list {
+.whatwedo .list {
     justify-content: space-between;
     max-width: 100%;
     gap: 20px;
@@ -211,7 +211,7 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-    .options {
+    .whatwedo {
         color: black;
     }
 
@@ -219,7 +219,7 @@ nav {
         transform: translateX(-80px);
     }
 
-    .options .list {
+    .whatwedo .list {
         flex-direction: column;
         gap: 100px;
     }

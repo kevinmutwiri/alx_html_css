@@ -182,13 +182,13 @@ nav {
     }
 }
 
-.options {
+.whatwedo {
     color: black;
     padding: 110px 200px;
     text-align: center;
 }
 
-/* .options .paragraph {
+/* .whatwedo .paragraph {
         max-width: 637px;
         min-width: 300px;
         margin: auto;
@@ -208,7 +208,7 @@ nav {
     /* Prevents text overflow */
 }
 
-.options .list .option {
+.whatwedo .list .option {
     flex-direction: column;
     width: 200px;
     height: 180px;
@@ -216,7 +216,7 @@ nav {
     text-align: center;
 }
 
-.options .list {
+.whatwedo .list {
     justify-content: space-between;
     max-width: 100%;
     gap: 20px;
@@ -224,7 +224,7 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-    .options {
+    .whatwedo {
         color: black;
     }
 
@@ -232,7 +232,7 @@ nav {
         transform: translateX(-80px);
     }
 
-    .options .list {
+    .whatwedo .list {
         flex-direction: column;
         gap: 100px;
     }
@@ -277,7 +277,7 @@ nav {
     }
 }
 
-.options {
+.whatwedo {
     color: black;
     padding: 110px 200px;
     text-align: center;
@@ -295,7 +295,7 @@ nav {
     /* Prevents text overflow */
 }
 
-.options .list .option {
+.whatwedo .list .option {
     flex-direction: column;
     width: 200px;
     height: 180px;
@@ -303,7 +303,7 @@ nav {
     text-align: center;
 }
 
-.options .list {
+.whatwedo .list {
     justify-content: space-between;
     width: 100%;
     gap: 20px;
@@ -311,7 +311,7 @@ nav {
 }
 
 @media screen and (max-width: 480px) {
-    .options {
+    .whatwedo {
         color: black;
     }
 
@@ -319,7 +319,7 @@ nav {
         transform: translateX(-80px);
     }
 
-    .options .list {
+    .whatwedo .list {
         flex-direction: column;
         gap: 100px;
     }
@@ -353,7 +353,7 @@ nav {
     /* Creates the hexagonal shape */
 }
 
-.options2 {
+.whatwedo2 {
     background-image: url(images/headphones_hero_2.jpg);
     object-fit: cover;
     background-position: center center;
@@ -362,11 +362,11 @@ nav {
     /* Ensure background covers the area */
 }
 
-.options2 {
+.whatwedo2 {
     color: white;
 }
 
-.contactUs-section {
+.contact-us {
     color: black;
     width: 335px;
     text-align: center;
@@ -374,7 +374,7 @@ nav {
     margin-block: 50px;
 }
 
-.contactUs-section form {
+.contact-us form {
     margin-top: 30px;
     display: flex;
     flex-direction: column;
@@ -384,18 +384,18 @@ nav {
     margin-inline: auto;
 }
 
-.contactUs-section form label {
+.contact-us form label {
     display: none;
 }
 
-.contactUs-section form input {
+.contact-us form input {
     outline: none;
     border: none;
     border-bottom: 1px solid black;
     width: 80%;
 }
 
-.contactUs-section form input::placeholder {
+.contact-us form input::placeholder {
     color: black;
     /* Placeholder text color */
     font-style: italic;
